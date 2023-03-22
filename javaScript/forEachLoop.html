@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+</body>
+<script type="text/javascript">
+      var cars = ["car1","car2","car3","car4"]; 
+      cars[5]= "car5";
+//  now for each function method is start
+    cars.forEach(car);
+    function car(item,index, array){
+        array[index] = item + "four"
+        }
+    cars.forEach(after);
+    function after(item,index){
+        console.log(index + item + "<br/>")
+        }
+
+
+// that for two values index and items
+        // function car(item,index){
+        //     document.write(index + "=>" + item + "<br />" )
+        // }
+
+    // simple for item 
+        // function car(item){
+        //     document.write(item + '<br/>');
+        // }
+
+  </script>
+</html>
